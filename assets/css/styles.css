@@ -233,6 +233,7 @@ footer a {
 #tutorial-content .column video {
   border-radius: 10px;
   height: 500px;
+  max-width: 290px;
 }
 
 .subnavigation {
