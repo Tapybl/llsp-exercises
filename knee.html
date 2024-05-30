@@ -105,6 +105,9 @@
       crossorigin="anonymous"
     ></script>
     <script>
+
+
+document.addEventListener('DOMContentLoaded', function() {
       document.getElementById('play').addEventListener('click', function(event) {
         event.preventDefault();
         document.getElementById('tutorial-content').style.display = 'none';
@@ -120,6 +123,7 @@
         this.classList.add('disabled-link');
         document.getElementById('play').classList.remove('disabled-link');
       });
+    });
     </script>
   </body>
 </html>
