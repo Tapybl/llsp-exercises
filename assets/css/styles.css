@@ -251,7 +251,17 @@ footer a {
   background-color: #faaf19;
   border-radius: 5px;
   padding: 1rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   display: block;
+}
+
+.subnavigation li a:hover {
+  background-color: #f1b744;
+  transform: scale(.98);
 }
 
 .disabled-link {
